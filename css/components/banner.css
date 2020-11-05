@@ -1,0 +1,23 @@
+.banner {
+  background-image: url(../../images/wagon1.jpg);
+  background-blend-mode: soft-light;
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner h1{
+  color: white;
+  font-size: 40px;
+  text-shadow: -1px 0 grey, 0 1px grey, 1px 0 grey, 0 -1px grey;
+}
+
+.banner p{
+  color: white; 
+  font-size: 30px;
+  font-weight: 400;
+  font-style: italic;
+}
